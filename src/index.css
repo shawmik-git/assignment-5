@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base text-ink font-body;
+}
+
+.text-gradient {
+  @apply bg-brand-gradient bg-clip-text text-transparent;
+}
+
+.btn-gradient {
+  @apply bg-brand-gradient text-white font-semibold shadow-md shadow-brand-pink/20 hover:brightness-110 active:brightness-95 transition;
+}
+
+.btn-dark {
+  @apply bg-ink text-white font-semibold hover:bg-ink/90 active:bg-ink/80 transition;
+}
+
+.card-border {
+  @apply border border-line;
+}
+
+.focus-ring {
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-pink;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
