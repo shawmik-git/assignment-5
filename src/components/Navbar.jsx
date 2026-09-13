@@ -52,12 +52,12 @@ export default function Navbar() {
           )}
         </button>
 
-        {/* Desktop: logo left / mobile: logo center */}
+        
         <div className="md:flex-none">
           <Logo />
         </div>
 
-        {/* Desktop center links */}
+       
         <ul className="hidden items-center gap-8 md:flex">
           {NAV_LINKS.map((link) => (
             <li key={link.label}>
@@ -71,7 +71,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Right: auth buttons (always visible) */}
+        
         <div className="flex items-center gap-3">
           <button className="focus-ring hidden rounded-lg px-3 py-2 text-sm font-medium text-ink-muted transition hover:text-ink sm:inline-block">
             Sign In
@@ -82,7 +82,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile dropdown */}
       {menuOpen && (
         <ul className="flex flex-col gap-1 border-t border-line bg-base px-6 py-3 md:hidden">
           {NAV_LINKS.map((link) => (
