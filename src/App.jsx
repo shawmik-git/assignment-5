@@ -13,9 +13,7 @@ function App() {
   const [loadError, setLoadError] = useState(null);
   const [stack, setStack] = useState([]);
 
-  // Load the technology catalogue from the local JSON file.
-  // useEffect runs this once after the first render, since fetching
-  // is a side effect and shouldn't happen during render itself.
+  
   useEffect(() => {
     fetch("/data/technologies.json")
       .then((res) => {
