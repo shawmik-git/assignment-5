@@ -1,38 +1,90 @@
+<div align="center">
+
 # 🧱 Dev Stack
 
-Dev Stack is a browsing tool for developers who are starting a new project and need to
-decide what to build it with. It lists common frontend, backend, database, styling, and
-tooling options as cards, and lets you collect the ones you want into a personal "stack"
-that you can review, trim, and clear as you change your mind.
+**Browse technologies. Build your stack. Ship your project.**
 
-## Built with
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white&labelColor=14121F)
+![Vite](https://img.shields.io/badge/Vite-Build_Tool-646CFF?logo=vite&logoColor=white&labelColor=14121F)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3-38BDF8?logo=tailwindcss&logoColor=white&labelColor=14121F)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-4-5A0EF8?labelColor=14121F)
+![React Toastify](https://img.shields.io/badge/React--Toastify-Alerts-FF3D8F?labelColor=14121F)
+![License](https://img.shields.io/badge/License-MIT-orange?labelColor=14121F)
 
-- React (Vite)
-- Tailwind CSS + DaisyUI
-- React-Toastify
-- JavaScript (ES6+)
-- JSON for the technology data
+</div>
 
-## Features
+---
 
-- **Build a stack as you browse.** Add any technology to your stack with one click; the
-  card updates immediately to show it's already added, so you never lose track of what
+## 📖 About
+
+**Dev Stack** is a browsing tool for developers who are starting a new project and need
+to decide what to build it with. It lists common frontend, backend, database, styling,
+and tooling options as cards, and lets you collect the ones you want into a personal
+**"stack"** that you can review, trim, and clear as you change your mind.
+
+## 📑 Table of Contents
+
+- [Features](#-features)
+- [Built With](#-built-with)
+- [Getting Started](#-getting-started)
+- [Project Structure](#-project-structure)
+- [React Questions](#-react-questions)
+
+## ✨ Features
+
+- 🧩 **Build a stack as you browse** — add any technology with one click; the card
+  updates instantly to show it's already in your stack, so you never lose track of what
   you've picked.
-- **A live, editable summary.** The "Your Stack" panel keeps a running count and lets you
-  remove one item at a time or clear everything at once, with a toast confirming every
-  action.
-- **Fast, responsive browsing.** Fifteen technologies across seven categories are loaded
-  from a single JSON file, rendered in a responsive grid that adapts from one column on
-  mobile to three on desktop.
+- 📋 **A live, editable summary** — the "Your Stack" panel keeps a running count and lets
+  you remove one item at a time or clear everything at once, with a toast confirming
+  every action.
+- ⚡ **Fast, responsive browsing** — 15 technologies across 7 categories load from a
+  single JSON file into a grid that adapts from one column on mobile to three on desktop.
 
-## Getting started
+## 🛠 Built With
+
+| Layer | Technology |
+|---|---|
+| UI library | React (Vite) |
+| Styling | Tailwind CSS + DaisyUI |
+| Notifications | React-Toastify |
+| Language | JavaScript (ES6+) |
+| Data | JSON |
+
+## 🚀 Getting Started
 
 ```bash
+# 1. Install dependencies
 npm install
+
+# 2. Start the dev server
 npm run dev
+
+# 3. Build for production
+npm run build
 ```
 
-## React questions
+## 📁 Project Structure
+
+```
+devstack/
+├── public/
+│   ├── data/technologies.json   # technology catalogue
+│   └── hero-stack.png           # hero illustration
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── TechGrid.jsx
+│   │   ├── TechCard.jsx
+│   │   ├── StackSidebar.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   └── main.jsx
+└── README.md
+```
+
+## 🧠 React Questions
 
 **1. What is JSX, and why is it used in React?**
 JSX is a syntax extension that lets you write markup directly inside JavaScript, like
@@ -78,7 +130,11 @@ back up, the parent also passes a function down as a prop (like `onAdd`), and th
 calls that function — usually with some data as an argument — when something happens,
 such as a button click.
 
-## What to submit
+---
 
-- GitHub Repository Link:
-- Live Site Link:
+<div align="center">
+
+**What to submit**
+GitHub Repository Link: _add here_ · Live Site Link: _add here_
+
+</div>
