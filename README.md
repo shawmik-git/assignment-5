@@ -135,6 +135,6 @@ such as a button click.
 <div align="center">
 
 **What to submit**
-GitHub Repository Link: _add here_ · Live Site Link: _add here_
+GitHub Repository Link:https://github.com/shawmik-git/assignment-5.git · Live Site Link: https://assignment-5-orpin.vercel.app/
 
 </div>
